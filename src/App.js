@@ -1,12 +1,12 @@
-import './App.css';
-import Navbar from "./components/Navbar"
-import SignIn from './pages/login/Login';
+import Navbar from "./components/navbar/Navbar";
+import Login from "./pages/login/Login";
+
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <SignIn/> */}
+      <Login/>
     </div>
   );
 }
